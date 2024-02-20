@@ -11,6 +11,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #2f363e;
+    gap: 50px;
 }
 
 .drag{
@@ -52,4 +53,18 @@ body{
     font-weight: 700;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.board{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.dropBox{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background: #0003;
 }
